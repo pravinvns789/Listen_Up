@@ -7,43 +7,11 @@ let masterSonngName = document.getElementById("masterSonngName");
 
 let songs = [
   {
-    songName: "Excuses",
-    filePath: "songs/1.mp3",
-    coverPath: "covers/cover1.jpg",
-  },
-  {
-    songName: "Silence",
-    filePath: "songs/ex.mp3",
-    coverPath: "covers/cover2.jpg",
-  },
-  {
-    songName: "Pain",
-    filePath: "songs/3.mp3",
-
-    songName: "Exeuses",
-    filePath: "./.mp3",
-    coverPath: "covers/cover2.jpg",
-  },
-  {
-    songName: "Wang da naap",
-    filePath: "songs/dhokha.mp3",
-    coverPath: "covers/cover3jpg",
-  },
-  {
-    songName: "Sitarey",
-    filePath: "songs/4.mp3",
-    coverPath: "covers/cover4.jpg",
-  },
-  {
     songName: "Dhokha",
     filePath: "songs/5.mp3",
     coverPath: "covers/cover5.jpg",
   },
-  {
-    songName: "Dhokha",
-    filePath: "songs/6.mp3",
-    coverPath: "covers/cover6.jpg",
-  },
+  
   {
     songName: "breakup Song",
     filePath: "songs/7.mp3",
