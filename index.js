@@ -13,12 +13,12 @@ let songs = [
   },
   {
     songName: "Exeuses",
-    filePath: "songs/ex.mp3",
+    filePath: "./.mp3",
     coverPath: "covers/cover2.jpg",
   },
   {
     songName: "Wang da naap",
-    filePath: "songs/3.mp3",
+    filePath: "songs/dhokha.mp3",
     coverPath: "covers/cover3jpg",
   },
   {
