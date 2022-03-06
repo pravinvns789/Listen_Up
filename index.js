@@ -48,7 +48,7 @@ let songs = [
     coverPath: "covers/cover11.jpg",
   },
   {
-    songName: "Rain Over Me",
+    songName: "Rain Over Me-Remix",
     filePath: "songs/11.mp3",
     coverPath: "covers/cover11.jpg",
   },
