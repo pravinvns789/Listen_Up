@@ -1,0 +1,83 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  
+
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.bbd  {
+  background-image: url(./image/guitar-g20c39e5c4_1920.jpg);
+  background-repeat: no-repeat;
+  height: 662px;
+  position:relative ;
+  width: 1519px;
+  margin: 0;
+  padding: 0;
+
+}
+.bodyh {
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+.but {
+  
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+}
+
+.bbut {
+  border-radius: 20px;
+  border:none;
+  background-color: red;
+  padding: 10px  30px;
+  
+  text-align: center;
+}
+.cards{
+  display: flex;
+
+}
+.card{
+  margin: 10px;
+  background-color: rgb(39, 39, 39);
+  /* border-radius: 10px; */
+  
+
+
+}
+.card:hover{
+  box-shadow: 2px 2px 2px 2px #888888 ;
+  background: url("./image/silence.jpg") no-repeat scroll right top;
+
+
+}
+.card-title{
+  color: white;
+}
+.card img{
+  height: 220px;
+  
+  /* border-radius: 10px; */
+}
+h3{
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.navColour{
+  
+  font-weight: bold;
+  font-size: larger;
+  
+}
