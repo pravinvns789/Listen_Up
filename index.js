@@ -7,7 +7,7 @@ let masterSonngName = document.getElementById("masterSonngName");
 
 let songs = [
   {
-    songName: "Let me love you",
+    songName: "8 parche",
     filePath: "songs/1.mp3",
     coverPath: "covers/cover1.jpg",
   },
