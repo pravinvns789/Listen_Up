@@ -33,12 +33,12 @@ let songs = [
     coverPath: "covers/cover10.jpg",
   },
   {
-    songName: "Pain",
+    songName: "sugar and brownies",
     filePath: "songs/11.mp3",
     coverPath: "covers/cover11.jpg",
   },
   {
-    songName: "Silence",
+    songName: "Shape Of You",
     filePath: "songs/11.mp3",
     coverPath: "covers/cover11.jpg",
   },
