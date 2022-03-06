@@ -13,7 +13,7 @@ let songs = [
   },
   {
     songName: "Yea Baby",
-    filePath: "songs/2.mp3",
+    filePath: "songs/ex.mp3",
     coverPath: "covers/cover2.jpg",
   },
   {
