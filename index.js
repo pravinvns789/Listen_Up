@@ -7,11 +7,19 @@ let masterSonngName = document.getElementById("masterSonngName");
 
 let songs = [
   {
-    songName: "8 parche",
+    songName: "Excuses",
     filePath: "songs/1.mp3",
     coverPath: "covers/cover1.jpg",
   },
   {
+    songName: "Silence",
+    filePath: "songs/ex.mp3",
+    coverPath: "covers/cover2.jpg",
+  },
+  {
+    songName: "Pain",
+    filePath: "songs/3.mp3",
+
     songName: "Exeuses",
     filePath: "./.mp3",
     coverPath: "covers/cover2.jpg",
@@ -27,38 +35,83 @@ let songs = [
     coverPath: "covers/cover4.jpg",
   },
   {
-    songName: "kalle kalle",
+    songName: "Dhokha",
     filePath: "songs/5.mp3",
     coverPath: "covers/cover5.jpg",
   },
   {
-    songName: "Lehenga",
+    songName: "Dhokha",
     filePath: "songs/6.mp3",
     coverPath: "covers/cover6.jpg",
   },
   {
-    songName: "Chitta",
+    songName: "breakup Song",
     filePath: "songs/7.mp3",
     coverPath: "covers/cover7.jpg",
   },
   {
-    songName: "Excuses",
+    songName: "Dil Chori",
     filePath: "songs/8.mp3",
     coverPath: "covers/cover8.jpg",
   },
   {
-    songName: "Tu Hi Das De",
+    songName: "Kamariya",
     filePath: "songs/9.mp3",
     coverPath: "covers/cover9.jpg",
   },
   {
-    songName: "Udaarian-2.0",
+    songName: "Shayad",
     filePath: "songs/10.mp3",
     coverPath: "covers/cover10.jpg",
   },
   {
-    songName: "Waliyan",
+    songName: "Pain",
     filePath: "songs/11.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Silence",
+    filePath: "songs/11.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Love Story",
+    filePath: "songs/11.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Rain Over Me",
+    filePath: "songs/11.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Sunflower",
+    filePath: "songs/15.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Brown Munde",
+    filePath: "songs/16.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Exeuses",
+    filePath: "songs/17.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Lamberhgini",
+    filePath: "songs/18.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Sitarey",
+    filePath: "songs/19.mp3",
+    coverPath: "covers/cover11.jpg",
+  },
+  {
+    songName: "Badnam",
+    filePath: "songs/20.mp3",
     coverPath: "covers/cover11.jpg",
   },
 ];
