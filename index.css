@@ -39,8 +39,8 @@ body {
   border: none;
   background-color: red;
   padding: 10px 30px;
-
   text-align: center;
+
 }
 .cards {
   display: flex;
@@ -52,7 +52,7 @@ body {
 }
 .card:hover {
   box-shadow: 2px 2px 2px 2px #888888;
-  background: url("./image/silence.jpg") no-repeat scroll right top;
+  background: url("./image/grey.jpg") no-repeat scroll right top;
   cursor: pointer;
 }
 .card-title {
