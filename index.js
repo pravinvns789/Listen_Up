@@ -33,7 +33,7 @@ let songs = [
     coverPath: "covers/cover10.jpg",
   },
   {
-    songName: "sugar and brownies",
+    songName: "Sugar And Brownies",
     filePath: "songs/11.mp3",
     coverPath: "covers/cover11.jpg",
   },
@@ -135,7 +135,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach(
   }
 );
 document.getElementById('next').addEventListener('click',()=>{
-    if(songIndex>=11){
+    if(songIndex>=15){
         songIndex = 1
     }
     else{
