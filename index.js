@@ -12,7 +12,7 @@ let songs = [
     coverPath: "covers/cover1.jpg",
   },
   {
-    songName: "Yea Baby",
+    songName: "Exeuses",
     filePath: "songs/ex.mp3",
     coverPath: "covers/cover2.jpg",
   },
@@ -92,8 +92,7 @@ myProgressBar.addEventListener('change', () => {
 const makeAllPlays = () => {
   Array.from(document.getElementsByClassName('songItemPlay')).forEach(
     (element) => {
-      element.classList.remove('fa-circle-pause');
-      element.classList.add('fa-circle-play');
+      
     }
   );
 };
@@ -103,8 +102,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach(
       makeAllPlays();
       
       songIndex = parseInt(e.target.id)
-      e.target.classList.remove('fa-circle-play');
-      e.target.classList.add('fa-circle-pause');
+      
       audioElement.src = `songs/${songIndex}.mp3`;
       masterSongName.innerText = songs[songIndex-1].songName;
       audioElement.currentTime=0;
