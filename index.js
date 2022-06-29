@@ -164,3 +164,5 @@ document.getElementById('previous').addEventListener('click',()=>{
       masterPlay.classList.add("fa-circle-pause");
 
 })
+
+/* for search */
