@@ -109,17 +109,11 @@ myProgressBar.addEventListener('change', () => {
   audioElement.currentTime =
     (myProgressBar.value * audioElement.duration) / 100;
 });
-const makeAllPlays = () => {
-  Array.from(document.getElementsByClassName('songItemPlay')).forEach(
-    (element) => {
-      
-    }
-  );
-};
+
 Array.from(document.getElementsByClassName('songItemPlay')).forEach(
   (element) => {
     element.addEventListener('click', (e) => {
-      makeAllPlays();
+      
       
       songIndex = parseInt(e.target.id)
       
