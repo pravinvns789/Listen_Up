@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   height: 721px;
   position: relative;
-  width: 1519px;
+  max-width: 100%;
   margin: 0;
   padding: 0;
   background-blend-mode: darken;

@@ -2,85 +2,84 @@ let songIndex = 0;
 let audioElement = new Audio("songs/1.mp3");
 let masterPlay = document.getElementById("masterPlay");
 let myProgressBar = document.getElementById("myProgressBar");
-let gif = document.getElementById("gif");
 let masterSonngName = document.getElementById("masterSonngName");
 
 let songs = [
   {
     songName: "Dhokha",
     filePath: "songs/5.mp3",
-    coverPath: "covers/cover5.jpg",
+    
   },
   
   {
     songName: "breakup Song",
     filePath: "songs/7.mp3",
-    coverPath: "covers/cover7.jpg",
+    
   },
   {
     songName: "Dil Chori",
     filePath: "songs/8.mp3",
-    coverPath: "covers/cover8.jpg",
+    
   },
   {
     songName: "Kamariya",
     filePath: "songs/9.mp3",
-    coverPath: "covers/cover9.jpg",
+    
   },
   {
     songName: "Shayad",
     filePath: "songs/10.mp3",
-    coverPath: "covers/cover10.jpg",
+   
   },
   {
     songName: "Sugar And Brownies",
     filePath: "songs/11.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Shape Of You",
     filePath: "songs/11.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Love Story",
     filePath: "songs/11.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Rain Over Me-Remix",
     filePath: "songs/11.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Sunflower",
     filePath: "songs/15.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Brown Munde",
     filePath: "songs/16.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Exeuses",
     filePath: "songs/17.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Lamberhgini",
     filePath: "songs/18.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Sitarey",
     filePath: "songs/19.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
   {
     songName: "Badnam",
     filePath: "songs/20.mp3",
-    coverPath: "covers/cover11.jpg",
+    
   },
 ];
 
@@ -90,12 +89,12 @@ masterPlay.addEventListener("click", () => {
     audioElement.play();
     masterPlay.classList.remove("fa-circle-play");
     masterPlay.classList.add("fa-circle-pause");
-    gif.style.opacity = 1;
+    
   } else {
     audioElement.pause();
     masterPlay.classList.remove("fa-circle-pause");
     masterPlay.classList.add("fa-circle-play");
-    gif.style.opacity = 0;
+    
   }
 });
 
@@ -110,17 +109,11 @@ myProgressBar.addEventListener('change', () => {
   audioElement.currentTime =
     (myProgressBar.value * audioElement.duration) / 100;
 });
-const makeAllPlays = () => {
-  Array.from(document.getElementsByClassName('songItemPlay')).forEach(
-    (element) => {
-      
-    }
-  );
-};
+
 Array.from(document.getElementsByClassName('songItemPlay')).forEach(
   (element) => {
     element.addEventListener('click', (e) => {
-      makeAllPlays();
+      
       
       songIndex = parseInt(e.target.id)
       
